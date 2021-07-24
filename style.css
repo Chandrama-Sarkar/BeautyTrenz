@@ -345,6 +345,7 @@ bottom: -70px;
     margin-right: 0.8;
     border: 2px solid transparent;
     border-radius: 8px;
+    align-self: center;
 }
 .style-text{
     margin-top:4rem;
