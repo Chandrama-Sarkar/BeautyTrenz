@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&family=Pacifico&display=swap');
 
 *{  
     padding:0px;
@@ -27,10 +28,9 @@
 }
 
 #nav2{
-    font-family: roboto;
-   /* background-color: rgba(4, 54, 4, 0.726)!important; */   
-   background-color: rgb(3, 44, 3)!important;  
-    
+    font-family: Roboto;
+   /*background-color: rgb(3, 44, 3)!important; */ 
+   background: rgba(3, 34, 3, 0.315)!important; 
     
     
    
@@ -61,25 +61,21 @@
     margin-bottom: 0px !important;
     padding-bottom: 0px !important;
     
-
 }
 #centeralign{
    
     
-
 }
 #coverimage img{
-
     width: 800px !important;;
     height: 500px!important;
     margin-left: auto!important;
     margin-right: auto !important;
-
 }*/
 
 
 .banner{
-    height:580px;
+    height:575px;
     background-color: hsla(103, 64%, 87%, 0.788);
     background-image: url('https://theparkskinclinic.ie/wp-content/uploads/revslider/home-1/slide1.jpg');
    background-repeat: no-repeat;
@@ -87,9 +83,10 @@
     background-position: center;
     background-attachment: fixed;
     overflow:hidden;
+    
 }
 .bannercontent{
-   background: rgba(3, 34, 3, 0.63)!important; 
+   background: rgba(3, 34, 3, 0.315)!important; 
     overflow: hidden;
     height: 100%;
     z-index: 2;
@@ -97,8 +94,45 @@
     
     
 }
+.bannercontent h1{
+    font-family: 'M PLUS 1p', sans-serif;
+    color: white;
+    margin-top: 6rem;
+    margin-left: 4rem;
+    font-size: 5rem;
+    
+}
+#and{
+    font-family: 'Pacifico', cursive;
+    color: rgb(105, 92, 14);
+    font-size: 3rem;
 
-
+}
+#bannerbtn{
+    padding:1rem;
+    border:transparent;
+    border-radius: 30px;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    color: rgb(105, 92, 14);
+    font-size: 1rem;
+}
+#bannerbtn:hover{
+    border:1px solid rgb(105, 92, 14);
+}
+.bannercontent p{
+    font-family: 'M PLUS 1p', sans-serif;
+    color: white;
+    margin-top:1rem;
+    margin-left: 4rem;
+    font-size: 1rem;
+    
+    
+}
+.bannercontent .fas{
+    color: rgb(105, 92, 14);
+    margin-left: 0.5rem;
+}
 
 
 
@@ -106,7 +140,6 @@
 
 /*.container{
     margin-top: 3rem !important;
-
 }*/
 
 
@@ -517,7 +550,6 @@ bottom: -70px;
    max-width: 100%;
    height:800px;
    object-fit:contain;
-
  }*/
 
 
@@ -549,6 +581,50 @@ bottom: -70px;
 
     
 }
+
+.bannercontent h1{
+    font-family: 'M PLUS 1p', sans-serif;
+    color: white;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    font-size: 2.5rem;
+    
+}
+#and{
+    font-family: 'Pacifico', cursive;
+    color: rgb(105, 92, 14);
+    font-size: 1.5rem;
+
+}
+#bannerbtn{
+    padding:1rem;
+    border:transparent;
+    border-radius: 30px;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    color: rgb(105, 92, 14);
+    font-size: 0.5rem;
+}
+#bannerbtn:hover{
+    border:1px solid rgb(105, 92, 14);
+}
+.bannercontent p{
+    font-family: 'M PLUS 1p', sans-serif;
+    color: white;
+    margin-top:0.5rem;
+    margin-left: 2rem;
+    font-size: 0.5rem;
+    
+    
+}
+.bannercontent .fas{
+    color: rgb(105, 92, 14);
+    margin-left: 0.5rem;
+}
+
+
+
+
 
 
 
@@ -614,7 +690,6 @@ content:'';
 display:block;
 width:50%;
 margin-left:25%;
-
 }*/
 
   
@@ -629,5 +704,3 @@ margin-left:25%;
 
 
 }
-
- 
